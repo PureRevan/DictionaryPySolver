@@ -4,7 +4,7 @@
 
 It can also provide a nice visualization of the solution and a quick way of entering simple matrices without any setup or code at all, allowing for easy access to solutions at any time.
 
-<img src="github_data/readme_front.png" alt="Solution Example" width="40%">
+<img src="github_data/readme_front.png" alt="Solution Example" width="60%">
 
 ## The Problem
 
@@ -26,7 +26,12 @@ The primary solution used by the [main.py](main.py) file, which also provides th
     git clone https://github.com/DarthRevan333/DictionaryPySolver
     ```
 
-2. Run the project (automatically runs main.py file)[^1]
+2. Install [dependencies](requirements.txt)
+    ```shell
+    pip install -r DictionaryPySolver/requirements.txt
+    ```
+
+3. Run the project (automatically runs main.py file)[^1]
     ```shell
     python DictionaryPySolver
     ```
