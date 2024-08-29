@@ -1,4 +1,5 @@
 import typing
+import os
 from timeit import default_timer
 from functools import wraps
 from string import ascii_lowercase
@@ -12,7 +13,7 @@ Utility functions
 """
 
 
-DICT_PATH = "./dictionary.txt"
+DICT_PATH = os.path.join(os.path.dirname(__file__), "./dictionary.txt")
 
 
 def set_dict_path(new_path: str) -> None:
@@ -116,7 +117,7 @@ def shift_index_path(path: tuple[tuple[int, int], ...]) -> tuple[tuple[int, int]
 def visualize_matrix_with_path(matrix: list[list[str]], path: list[tuple[int, int], ...], linewidth: int = 10,
                                alpha: float = 0.25,
                                color: str = "green", start_color: str = "red", starting_thickness: int = 250,
-                               start_alpha: float = 0.8, word: str = "", forces_on_foreground: bool = True):
+                               start_alpha: float = 0.8, word: str = ""):
     fig, ax = plt.subplots()
     for i, row in enumerate(matrix):
         for j, char in enumerate(row):
@@ -137,9 +138,6 @@ def visualize_matrix_with_path(matrix: list[list[str]], path: list[tuple[int, in
     ax.set_title(word)
 
     plt.grid(False)
-    
-    if forces_on_foreground:
-        fig.canvas.manager.window.attributes('-topmost', 1)
     
     plt.show()
 

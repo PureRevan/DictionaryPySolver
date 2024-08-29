@@ -10,7 +10,7 @@ It then solves it using frequency_path_search_validating and also displays a vis
 """
 
 
-if __name__ == '__main__':
+def main():
     preloaded_dict = load_len_sorted_dictionary_freq_map()
 
     while True:
@@ -41,3 +41,6 @@ if __name__ == '__main__':
 
         visualize_matrix_with_path(inpt[::-1], path, word=word)
 
+
+if __name__ == '__main__':
+    main()

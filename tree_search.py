@@ -73,13 +73,3 @@ class Root(Node):
                     pass
 
         return longest
-
-
-if __name__ == '__main__':
-    from test import create_root, root_contains, root_search
-
-    root = create_root()
-
-    root_contains(root)
-    root_search(root)
-
