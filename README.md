@@ -43,10 +43,10 @@ The primary solution used by the [main.py](main.py) file, which also provides th
             |
             ↓    
     | ------------- |
-    | I   N   N   E |
-    | R   M   O   S |
-    | T   A   R   E |
-    | G   B   D   C |
+    | B   E   N   G |
+    | R   A   I   N |
+    | D   O   M   E |
+    | S   T   A   R |
     | ------------- |
     ```
 
@@ -64,10 +64,10 @@ The primary solution used by the [main.py](main.py) file, which also provides th
             |
             ↓    
     | ------------- |
-    | I   N   N   E |
-    | R   M   O   S |
-    | T   A   R   E |
-    | G   B   D   C |
+    | B   E   N   G |
+    | R   A   I   N |
+    | D   O   M   E |
+    | S   T   A   R |
     | ------------- |
     ```
 
