@@ -23,7 +23,7 @@ The primary solution used by the [main.py](main.py) file, which also provides th
 
 1. Clone the git repository
     ```shell
-    git clone https://github.com/DarthRevan333/DictionaryPySolver
+    git clone https://github.com/PureRevan/DictionaryPySolver
     ```
 
 2. Install [dependencies](requirements.txt)
